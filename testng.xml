@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Google Apps">
+    <test name="Regression">
+        <classes>
+            <class name="com.TSBFramewor.swati.testCases.TestCase_Homepage_01"/>
+            <class name="com.TSBFramewor.swati.testCases.TestCase_Login_02"/>
+            <class name="com.TSBFramewor.swati.testCases.TestCase_search_computer_03"/>
+            <class name="com.TSBFramewor.swati.testCases.TestCase_Selling_item_04" />
+        </classes>
+    </test>
+</suite>
