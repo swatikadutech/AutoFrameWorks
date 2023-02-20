@@ -35,9 +35,12 @@ public class ReadConfig {
         return username;
     }
 
-    public String getpassword() {
+    public String getPassword() {
         String password = pro.getProperty("password");
         return password;
     }
-
+    public String getloginlinkurl() {
+        String loginbaseURl = pro.getProperty("loginbaseURl");
+        return loginbaseURl;
+    }
 }

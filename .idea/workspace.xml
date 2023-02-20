@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac87bc2d-caf0-4e6a-baa1-7bc25c141f47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="ac87bc2d-caf0-4e6a-baa1-7bc25c141f47" name="Changes" comment="FIrst SetUP Project Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/PageObject/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/PageObject/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/PageObject/ComputerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/PageObject/ComputerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/PageObject/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/PageObject/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/PageObject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/PageObject/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/testCases/TestCase_Homepage_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/testCases/TestCase_Homepage_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/testCases/TestCase_Login_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/testCases/TestCase_Login_item_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/testCases/TestCase_Selling_item_04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/testCases/TestCase_search_computer_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/testCases/TestCase_search_computer_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/testData/TSBTradeTestdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/testData/TSBTradeTestdata.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/utilities/ReadConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/utilities/ReadConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +32,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,17 +66,7 @@
       <recent name="C:\Users\hphadas\utitlity\partT\simple-selenium\TSBBankAutoFrameWork_swati\src\test\java\com\TSBFrame\testData" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestCase_Login_02">
-    <configuration name="C:/Users/hphadas/utitlity/partT/simple-selenium/TSBBankAutoFrameWork_swati/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TSBBankAutoFrameWork_swati" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestCase_Login_item_04">
     <configuration name="C:/Users/hphadas/utitlity/partT/simple-selenium/TSBBankAutoFrameWork_swati/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TSBBankAutoFrameWork_swati" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -75,18 +77,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCase_Login_01.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase_Homepage_01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TSBBankAutoFrameWork_swati" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.TSBFrame.testCases.*" />
+          <option name="PATTERN" value="com.TSBFramewor.swati.testCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.TSBFrame.testCases" />
-      <option name="MAIN_CLASS_NAME" value="com.TSBFrame.testCases.TestCase_Login_01" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.TSBFramewor.swati.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.TSBFramewor.swati.testCases.TestCase_Homepage_01" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -110,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.TSBFramewor.swati.testCases" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase_Login_item_04" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TSBBankAutoFrameWork_swati" />
       <extension name="coverage">
         <pattern>
@@ -119,7 +120,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.TSBFramewor.swati.testCases" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="MAIN_CLASS_NAME" value="com.TSBFramewor.swati.testCases.TestCase_Login_item_04" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase_search_computer_03" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TSBBankAutoFrameWork_swati" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TSBFramewor.swati.testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TSBFramewor.swati.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.TSBFramewor.swati.testCases.TestCase_search_computer_03" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -128,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestCase_Login_02" />
+        <item itemvalue="TestNG.TestCase_Login_item_04" />
         <item itemvalue="TestNG.C:/Users/hphadas/utitlity/partT/simple-selenium/TSBBankAutoFrameWork_swati/testng.xml" />
-        <item itemvalue="TestNG.C:/Users/hphadas/utitlity/partT/simple-selenium/TSBBankAutoFrameWork_swati/testNG.xml" />
-        <item itemvalue="TestNG.com.TSBFramewor.swati.testCases" />
-        <item itemvalue="TestNG.TestCase_Login_01.loginTest" />
+        <item itemvalue="TestNG.TestCase_search_computer_03" />
+        <item itemvalue="TestNG.TestCase_Login_02" />
+        <item itemvalue="TestNG.TestCase_Homepage_01" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +164,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676638566786</updated>
     </task>
+    <task id="LOCAL-00001" summary="FIrst SetUP Project Commit">
+      <created>1676820541347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676820541347</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +185,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FIrst SetUP Project Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIrst SetUP Project Commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -165,11 +196,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/PageObject/BaseClass.java</url>
           <line>15</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/TSBFramewor/swati/testCases/TestCase_Login_02.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

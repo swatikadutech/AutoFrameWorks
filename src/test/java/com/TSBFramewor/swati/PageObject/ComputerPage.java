@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class ComputerPage {
 
     WebDriver webDriver;
-    @FindBy(id = "searchString")
+    @FindBy(xpath = "//input[@id='searchString']")
     WebElement searchstring;
     @FindBy(id = "LoginLink")
     WebElement btnSearch;

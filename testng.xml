@@ -4,9 +4,8 @@
     <test name="Regression">
         <classes>
             <class name="com.TSBFramewor.swati.testCases.TestCase_Homepage_01"/>
-            <class name="com.TSBFramewor.swati.testCases.TestCase_Login_02"/>
+            <class name="com.TSBFramewor.swati.testCases.TestCase_Login_item_04"/>
             <class name="com.TSBFramewor.swati.testCases.TestCase_search_computer_03"/>
-            <class name="com.TSBFramewor.swati.testCases.TestCase_Selling_item_04" />
         </classes>
     </test>
 </suite>

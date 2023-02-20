@@ -5,20 +5,24 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import javax.xml.xpath.XPath;
+
 public class HomePage {
 
     WebDriver webDriver;
-    @FindBy(id = "SiteHeader_SiteTabs_sellLink")
+    @FindBy(xpath = "//a[@id='LoginLink']")
     WebElement loginbutton;
     @FindBy(linkText = "Computers")
     WebElement linktoComputerMenu;
-    @FindBy(id = "LoginLink")
-    WebElement btnLogin;
+
+    //@FindBy()
+
 
     public HomePage(WebDriver driver) {
         webDriver = driver;
         PageFactory.initElements(driver, this);
     }
+
 
     public void GotoLogin() {
         loginbutton.click();
@@ -29,7 +33,7 @@ public class HomePage {
     }
 
     public void Clickonsell() {
-        btnLogin.click();
+      //  btnLogin.click();
     }
 
 }

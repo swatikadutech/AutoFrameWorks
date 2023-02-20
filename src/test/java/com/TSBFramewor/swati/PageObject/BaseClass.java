@@ -16,7 +16,8 @@ public class BaseClass {
     ReadConfig readConfig = new ReadConfig();
     public String baseURl = readConfig.getApplicationURl();
     public String userName = readConfig.getUsername();
-    public String password = readConfig.getpassword();
+    public String password = readConfig.getPassword();
+    public String loginlinkurl = readConfig.getloginlinkurl();
 
     public BaseClass() throws FileNotFoundException {
     }
@@ -26,6 +27,15 @@ public class BaseClass {
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//Driver//chromedriver.exe");
         driver = new ChromeDriver();
         logger = Logger.getLogger("Tradesand URl");
+    }
+
+    public void openURl(){
+        driver.get(baseURl);
+        driver.manage().window().maximize();
+    }
+
+    public void openLoginURl(){
+        driver.get(loginlinkurl);
     }
 
     @AfterClass

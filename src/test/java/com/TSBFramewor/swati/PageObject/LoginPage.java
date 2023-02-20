@@ -7,12 +7,14 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
     WebDriver webDriver;
-    @FindBy(id = "Email")
+    @FindBy(xpath = "//input[@id='Email']")
     WebElement usernameEmail;
     @FindBy(id = "Password")
     WebElement userPassword;
     @FindBy(id = "SignIn")
     WebElement btnLogin;
+
+
     public LoginPage(WebDriver driver) {
         webDriver = driver;
         PageFactory.initElements(driver, this);
@@ -23,7 +25,7 @@ public class LoginPage {
     }
 
     public void setPassword(String Pword) {
-        usernameEmail.sendKeys(Pword);
+        userPassword.sendKeys(Pword);
     }
 
     public void clicksubmit() {
